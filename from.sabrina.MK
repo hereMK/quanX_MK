@@ -77,12 +77,12 @@ https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optiona
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/YouTube.list, tag=YouTube (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/GMedia.list, tag=GMedia (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list, tag=Telegram (Stick Rules), enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/master/ACL4SSR/filter.ACL4SSR.microsoft, tag=Microsoft (Stick Rules), enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/ACL4SSR/filter.ACL4SSR.microsoft, tag=Microsoft (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list, tag=PayPal (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/master/makeup,tag=makeup, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/makeup,tag=makeup, enabled=true
 
 [filter_local]
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
@@ -101,7 +101,7 @@ final, Others
 
 [rewrite_remote]
 # rewrite 复写远程订阅
-https://raw.githubusercontent.com/hereMK/quanX_MK/master/tiktok.quanX.UK, tag=TikTok解锁UK, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/tiktok.quanX.UK, tag=TikTok解锁UK, enabled=true
 
 [rewrite_local]
 # 本地复写规则
