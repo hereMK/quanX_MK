@@ -28,6 +28,7 @@ server=/*.tencent.com/119.28.28.28
 server=/*.weixin.com/119.28.28.28
 server=/*.bilibili.com/119.29.29.29
 server=/hdslb.com/119.29.29.29
+server=/*.163.com/119.29.29.29
 server=/*.126.com/119.29.29.29
 server=/*.126.net/119.29.29.29
 server=/*.127.net/119.29.29.29
@@ -35,6 +36,7 @@ server=/*.netease.com/119.29.29.29
 server=/*.mi.com/119.29.29.29
 server=/*.xiaomi.com/119.29.29.29
 address=/mtalk.google.com/108.177.125.188
+
 
 [policy]
 # 其中 Apple Update 为屏蔽iOS系统更新的策略组，默认保持直连，如有需要屏蔽，请在面板自行切换至REJECT； CMedia 策略组为中国媒体（包括A站、B站、爱奇艺等）；GMedia 为国际媒体（包括HULU、HBO等）；Outside 指定访问境外网站时的策略或节点；Mainland 控制访问大陆网站时的策略；Others 为其他规则，若前边的规则都没有被匹配到，则听从此策略组的规定。
