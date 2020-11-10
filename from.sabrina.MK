@@ -41,6 +41,7 @@ address=/mtalk.google.com/108.177.125.188
 [policy]
 # 其中 Apple Update 为屏蔽iOS系统更新的策略组，默认保持直连，如有需要屏蔽，请在面板自行切换至REJECT； CMedia 策略组为中国媒体（包括A站、B站、爱奇艺等）；GMedia 为国际媒体（包括HULU、HBO等）；Outside 指定访问境外网站时的策略或节点；Mainland 控制访问大陆网站时的策略；Others 为其他规则，若前边的规则都没有被匹配到，则听从此策略组的规定。
 static=makeup, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
+static=forMainlandOnly, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/China_Map.png
 static=AdBlock, Outside, reject, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/AdBlock.png
 static=Apple Update, direct, reject, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple_Update.png
 static=Apple, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Apple.png
@@ -86,6 +87,8 @@ https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedte
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/makeup,tag=makeup, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/forMainlandOnly,tag=forMainlandOnly, enabled=true
+
 
 [filter_local]
 # 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
