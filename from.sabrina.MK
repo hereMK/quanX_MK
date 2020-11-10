@@ -87,7 +87,7 @@ https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedte
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/makeup,tag=makeup, enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/main/forMainlandOnly,tag=forMainlandOnly, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/forMainlandOnly,tag=大陆限定, enabled=true
 
 
 [filter_local]
