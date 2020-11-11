@@ -1,7 +1,7 @@
 ;“;” “#”为注释符号，去掉前面的符号，该行才会生效
 ; 基于STICK RULES项目的配置整理
 ; 自用规则，随缘更新。欢迎访问本人的小破站： https://merlinblog.xyz/
-; https://github.com/hereMK/sabrina-QuantumultX-demo/blob/master/SabrinaQuanxConf.conf
+; https://github.com/solikethis/QuantumultX-demo/blob/master/SabrinaQuanxConf.conf
 
 [general]
 excluded_routes=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
@@ -40,8 +40,8 @@ address=/mtalk.google.com/108.177.125.188
 
 [policy]
 # 其中 Apple Update 为屏蔽iOS系统更新的策略组，默认保持直连，如有需要屏蔽，请在面板自行切换至REJECT； CMedia 策略组为中国媒体（包括A站、B站、爱奇艺等）；GMedia 为国际媒体（包括HULU、HBO等）；Outside 指定访问境外网站时的策略或节点；Mainland 控制访问大陆网站时的策略；Others 为其他规则，若前边的规则都没有被匹配到，则听从此策略组的规定。
-static=makeup, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
-static=forMainlandOnly, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/China_Map.png
+static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
+static=CN_MK, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
 static=AdBlock, Outside, reject, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/AdBlock.png
 static=Apple Update, direct, reject, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple_Update.png
 static=Apple, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Apple.png
@@ -86,8 +86,8 @@ https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optiona
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list, tag=Outside (Stick Rules), enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Mainland.list, tag=Mainland (Stick Rules), enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/main/makeup,tag=makeup, enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/main/forMainlandOnly,tag=大陆限定, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/Genuine_IP,tag=Genuine_IP, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/CN_MK,tag=CN_MK, enabled=true
 
 
 [filter_local]
