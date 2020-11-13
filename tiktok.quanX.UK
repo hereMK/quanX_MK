@@ -1,5 +1,6 @@
 hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
 
-(?<=_region=)CN(?=&) url 307 UK
-(?<=&app_version=)1[6-9]..(?=.?.?&) url 307 17..
-(?<=\?version_code=)1[6-9]..(?=.?.?&) url 307 17..
+CN url 307 UK
+(?<=&mcc_mnc=)4 url 307 2
+(?<=version_code=)1[8-9]..(?=.?.?&) url 307 17
+(^https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?\w{7}_\w{4}=\d{2}\.\d\.\d)(&.+) url 302 $1$3
