@@ -1,4 +1,4 @@
-hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
+hostname = *
 
 CN url 307 UK
 (?<=&mcc_mnc=)4 url 307 2
