@@ -1,5 +1,7 @@
 hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
 
+^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? url reject
+
 CN url 307 UK
 (?<=&mcc_mnc=)4 url 307 2
 (?<=version_code=)1[8-9]..(?=.?.?&) url 307 17
