@@ -60,7 +60,7 @@ static=Apple, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/
 static=Microsoft, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Microsoft.png
 static=Others, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png
 static=CN_MK, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
-static=HK_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+static=TW_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
 static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
 
 
@@ -75,7 +75,7 @@ static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Ko
 [filter_remote]
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/Genuine_IP,tag=Genuine_IP, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/CN_MK,tag=CN_MK, enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/main/HK_MK,tag=HK_MK, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/TW_MK,tag=TW_MK, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/ACL4SSR/filter.ACL4SSR.microsoft, tag=Microsoft (ACL4SSR), enabled=true
 
 
