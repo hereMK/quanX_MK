@@ -12,6 +12,7 @@ resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/maste
 profile_img_url=https://raw.githubusercontent.com/Orz-3/mini/none/qikuo.png
 dns_exclusion_list = *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com, *.localnetwork.uop, mfs.ykimg.com*.ttf
 
+
 [dns]
 no-ipv6
 server=119.29.29.29
