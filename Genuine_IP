@@ -4,6 +4,9 @@ DOMAIN-SUFFIX,scholar.google.com.hk,Genuine_IP
 DOMAIN-SUFFIX,scholar.google.com.tw,Genuine_IP
 DOMAIN-SUFFIX,dcard.tw,Genuine_IP
 DOMAIN-SUFFIX,v2rayssr.com,Genuine_IP
+DOMAIN-KEYWORD,whatismyipaddress,Genuine_IP,Genuine_IP
+DOMAIN-KEYWORD,overcast,Genuine_IP
+DOMAIN-SUFFIX,images-amazon.com,Genuine_IP
 
 # optional
 # hotbak
