@@ -6,9 +6,7 @@ DOMAIN-SUFFIX,dcard.tw,Genuine_IP
 DOMAIN-SUFFIX,v2rayssr.com,Genuine_IP
 DOMAIN-KEYWORD,whatismyipaddress,Genuine_IP
 DOMAIN-KEYWORD,overcast,Genuine_IP
-DOMAIN-SUFFIX,images-amazon.com,Genuine_IP
-DOMAIN-KEYWORD,amazon,Genuine_IP
-DOMAIN-KEYWORD,imdb,Genuine_IP
+
 
 # optional
 # hotbak
