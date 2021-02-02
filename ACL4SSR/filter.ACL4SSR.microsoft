@@ -27,8 +27,8 @@ HOST-SUFFIX,xboxlive.com,Microsoft
 
 
 
-DOMAIN-KEYWORD,OneDrive
-DOMAIN-KEYWORD,OneDriveUpdater
+HOST-KEYWORD,OneDrive
+HOST-KEYWORD,OneDriveUpdater
 USER-AGENT,OneDrive*
 USER-AGENT,OneDriveiOSApp*
 DOMAIN-KEYWORD,1drv
