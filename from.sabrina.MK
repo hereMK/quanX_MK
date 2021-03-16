@@ -116,6 +116,7 @@ final, Others
 [rewrite_remote]
 # rewrite 复写远程订阅
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/tiktok.quanX.UK, tag=TikTok解锁UK, enabled=false
+https://subweb.oss-cn-hongkong.aliyuncs.com/Module/embyUnlocked.conf, tag=emby破解, enabled=false
 
 [rewrite_local]
 # 本地复写规则
