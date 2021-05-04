@@ -70,11 +70,11 @@ static=Apple, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/
 static=Microsoft, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Microsoft.png
 static=Others, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png
 static=CN_MK, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
-static=TW_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
-static=HK_MK, HK-reg，proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
-static=emby_SG_MK, SG-reg, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
-static=emby_HK_MK, HK-reg，proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
-static=emby_US_MK, US-reg, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
+static=TW_MK, TW-reg,proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
+static=HK_MK, HK-reg,proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+#static=emby_SG_MK, SG-reg, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
+#static=emby_HK_MK, HK-reg，proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+#static=emby_US_MK, US-reg, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
 static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
 
 static= HK-reg, server-tag-regex= 香港|🇭🇰|HK|Hong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
@@ -97,14 +97,14 @@ https://raw.githubusercontent.com/hereMK/quanX_MK/main/Genuine_IP,tag=Genuine_IP
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/CN_MK,tag=CN_MK, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/TW_MK,tag=TW_MK, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/HK_MK,tag=HK_MK, enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/main/US_MK,tag=emby_US_MK, enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/main/SG_MK,tag=emby_SG_MK, enabled=true
-https://raw.githubusercontent.com/hereMK/quanX_MK/main/HK_MK,tag=emby_HK_MK, enabled=true
+#https://raw.githubusercontent.com/hereMK/quanX_MK/main/US_MK,tag=emby_US_MK, enabled=true
+#https://raw.githubusercontent.com/hereMK/quanX_MK/main/SG_MK,tag=emby_SG_MK, enabled=true
+#https://raw.githubusercontent.com/hereMK/quanX_MK/main/HK_MK,tag=emby_HK_MK, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/ACL4SSR/filter.ACL4SSR.microsoft, tag=Microsoft (ACL4SSR), enabled=true
 
 
 
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, force-policy=AdBlock, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list, tag=AdBlock, force-policy=AdBlock, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list, tag=AdBlock, force-policy=AdBlock, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/AppStore.list, tag=Apple , force-policy=Apple, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Apple/AppStoreConnect.list, tag=Apple , force-policy=Apple, update-interval=86400, opt-parser=true, enabled=true
@@ -115,7 +115,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/Netflix.list, tag=Netflix , force-policy=Netflix, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list, tag=Spotify , force-policy=Spotify, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/YouTube.list, tag=YouTube , force-policy=YouTube, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list, tag=GMedia , enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list, tag=GMedia , force-policy=GMedia, update-interval=86400, opt-parser=true, enabled=trueenabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list, tag=Telegram , enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list, tag=PayPal , enabled=true
 #https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest , enabled=true
