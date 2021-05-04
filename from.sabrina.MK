@@ -71,12 +71,13 @@ static=Microsoft, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ
 static=Others, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png
 static=CN_MK, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
 static=TW_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
-static=HK_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+static=HK_MK, HK-reg，proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
 static=emby_SG_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/emby_SG.png
-static=emby_HK_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/emby_HK.png
+static=emby_HK_MK, HK-reg，proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/emby_HK.png
 static=emby_US_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/emby_US.png
 static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
-
+static= HK-reg, server-tag-regex= 香港|🇭🇰|HK|Hong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+#static= reg, server-tag-regex= ||, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
 
 [server_local]
 # 本地服务器部分
