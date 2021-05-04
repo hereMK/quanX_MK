@@ -4,20 +4,30 @@
 ; https://github.com/solikethis/QuantumultX-demo/blob/master/SabrinaQuanxConf.conf
 
 [general]
-excluded_routes=192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
-network_check_url=http://cp.cloudflare.com/generate_204
-server_check_url=http://www.qualcomm.cn/generate_204
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
-resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
-profile_img_url=https://raw.githubusercontent.com/Orz-3/mini/none/qikuo.png
-dns_exclusion_list = *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.icitymobile.mobi, *.pingan.com.cn, *.cmbchina.com, *.localnetwork.uop, mfs.ykimg.com*.ttf
+# QuanX会对server_check_url指定的网址进行相应测试，以确认节点的可用性
+server_check_url=http://cp.cloudflare.com/generate_204
+
+# list中的域名将不使用fake-ip方式, 多个域名用“, ”连接。其它域名则全部采用 fake-ip及远程解析的模式
+dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com
+
+# 用于获取及展示节点信息
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/IP.js
+
+# 资源解析器，自定义各类远程资源的转换
+resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
+
+# 下列路径将不经过QuanX的处理
+excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
+fallback_udp_policy=direct
 
 
 [dns]
 no-ipv6
 server=119.29.29.29
-server=223.5.5.5
-server=1.2.4.8
+address=/mtalk.google.com/108.177.125.188
+server=/dl.google.com/119.29.29.29
+server=/dl.l.google.com/119.29.29.29
+# 指定域名解析dns
 server=/*.taobao.com/223.5.5.5
 server=/*.tmall.com/223.5.5.5
 server=/*.alipay.com/223.5.5.5
@@ -36,7 +46,6 @@ server=/*.127.net/119.29.29.29
 server=/*.netease.com/119.29.29.29
 server=/*.mi.com/119.29.29.29
 server=/*.xiaomi.com/119.29.29.29
-address=/mtalk.google.com/108.177.125.188
 
 
 [policy]
@@ -62,6 +71,7 @@ static=Microsoft, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ
 static=Others, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png
 static=CN_MK, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
 static=TW_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
+static=HK_MK, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
 static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
 
 
@@ -77,6 +87,7 @@ static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Ko
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/Genuine_IP,tag=Genuine_IP, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/CN_MK,tag=CN_MK, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/TW_MK,tag=TW_MK, enabled=true
+https://raw.githubusercontent.com/hereMK/quanX_MK/main/HK_MK,tag=HK_MK, enabled=true
 https://raw.githubusercontent.com/hereMK/quanX_MK/main/ACL4SSR/filter.ACL4SSR.microsoft, tag=Microsoft (ACL4SSR), enabled=true
 
 
