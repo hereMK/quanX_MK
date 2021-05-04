@@ -1,5 +1,5 @@
-;“;” “#”为注释符号，去掉前面的符号，该行才会生效
-; 基于STICK RULES项目的配置整理
+;“;” “#” “//”为注释符号，去掉前面的符号，该行才会生效
+; 基于STICK RULES、神机规则、mini等项目的配置整理
 ; 自用规则，随缘更新。欢迎访问本人的小破站： https://merlinblog.xyz/
 ; https://github.com/solikethis/QuantumultX-demo/blob/master/SabrinaQuanxConf.conf
 
