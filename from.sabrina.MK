@@ -52,7 +52,7 @@ server=/*.xiaomi.com/119.29.29.29
 # 其中 Apple Update 为屏蔽iOS系统更新的策略组，默认保持直连，如有需要屏蔽，请在面板自行切换至REJECT； CMedia 策略组为中国媒体（包括A站、B站、爱奇艺等）；
 # GMedia 为国际媒体（包括HULU、HBO等）；
 # Outside 指定访问境外网站时的策略或节点；Mainland 控制访问大陆网站时的策略；Others 为其他规则，若前边的规则都没有被匹配到，则听从此策略组的规定。
-static=Outside, proxy, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Outside.png
+static=Outside, proxy, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, direct, reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Outside.png
 static=AdBlock, reject, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/AdBlock.png
 static=Netease Music, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
 static=CMedia, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/CMedia.png
@@ -82,7 +82,7 @@ static= TW-reg, server-tag-regex= 台|tw|TW|Tai, img-url=https://raw.githubuserc
 static= US-reg, server-tag-regex= 美|us|US|Amer, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
 static= JP-reg, server-tag-regex= 日|jp|JP|Jap, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JP.png
 static= SG-reg, server-tag-regex= 新|sg|SG|Singa, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
-#static= reg, server-tag-regex= ||, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+static= reg, server-tag-regex= ||, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
 
 [server_local]
 # 本地服务器部分
