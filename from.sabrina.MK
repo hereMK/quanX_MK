@@ -1,7 +1,7 @@
 ;“;” “#” “//”为注释符号，去掉前面的符号，该行才会生效
 ; 基于STICK RULES、神机规则、mini等项目的配置整理
-; 自用规则，随缘更新。欢迎访问本人的小破站： https://merlinblog.xyz/
-; https://github.com/solikethis/QuantumultX-demo/blob/master/SabrinaQuanxConf.conf
+; “Sabrina的万事屋”博主自用规则模板，随缘更新。欢迎访问本人的小破站： https://merlinblog.xyz/
+; 本次更新日期：2021/05/16
 
 [general]
 # QuanX会对server_check_url指定的网址进行相应测试，以确认节点的可用性
@@ -18,8 +18,6 @@ resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scri
 
 # 下列路径将不经过QuanX的处理
 excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
-fallback_udp_policy=direct
-
 
 [dns]
 no-ipv6
@@ -57,11 +55,11 @@ static=AdBlock, reject, direct, Outside, img-url=https://raw.githubusercontent.c
 static=Netease Music, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
 static=CMedia, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/CMedia.png
 static=TikTok, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/TikTok.png
-static=GMedia, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
-static=Netflix, GMedia, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Netflix.png
-static=Spotify, GMedia, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
-static=YouTube, GMedia, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/YouTube.png
-static=Telegram, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram_X.png
+static=GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
+static=Netflix, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Netflix.png
+static=Spotify, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
+static=YouTube, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/YouTube.png
+static=Telegram, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram_X.png
 static=PayPal, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/PayPal.png
 static=Mainland, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Mainland.png
 #static=Speedtest, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Speedtest.png
