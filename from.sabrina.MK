@@ -56,6 +56,7 @@ static=Netease Music, direct, Outside, img-url=https://raw.githubusercontent.com
 static=CMedia, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/CMedia.png
 static=TikTok, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/TikTok.png
 static=GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
+static=Emby公益服, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
 static=Netflix, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Netflix.png
 static=Spotify, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
 static=YouTube, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/YouTube.png
@@ -114,6 +115,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Music/Spotify.list, tag=Spotify , force-policy=Spotify, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Video/YouTube.list, tag=YouTube , force-policy=YouTube, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list, tag=GMedia , force-policy=GMedia, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Ruleset/Emby/Emby.list, tag=Emby公益服, force-policy=Emby公益服, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Telegram.list, tag=Telegram , enabled=true
 https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/PayPal.list, tag=PayPal , enabled=true
 #https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Speedtest.list, tag=Speedtest , enabled=true
