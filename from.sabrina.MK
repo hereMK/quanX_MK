@@ -56,7 +56,7 @@ static=Netease Music, direct, Outside, img-url=https://raw.githubusercontent.com
 static=CMedia, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/CMedia.png
 static=TikTok, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/TikTok.png
 static=GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
-static=Emby公益服, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
+static=Emby公益服, HK-reg, US-reg, SG-reg, TW-reg, JP-reg, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
 static=Netflix, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Netflix.png
 static=Spotify, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
 static=YouTube, GMedia, Outside, direct, US-reg, SG-reg, HK-reg, TW-reg, JP-reg, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/YouTube.png
