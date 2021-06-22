@@ -74,6 +74,7 @@ static=HK_MK, HK-reg, Outside, proxy, direct, img-url=https://raw.githubusercont
 #static=emby_SG_MK, SG-reg, proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
 #static=emby_HK_MK, HK-reg，proxy, direct, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
 static=US_MK, US-reg, Outside, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
+static=JP_MK, JP-reg, Outside, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JP.png
 static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
 
 static= HK-reg, server-tag-regex= 港|HK|HONG|Hong|HGC, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
