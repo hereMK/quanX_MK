@@ -76,11 +76,11 @@ static=HK_MK, HK-reg, Outside, proxy, direct, img-url=https://raw.githubusercont
 static=US_MK, US-reg, Outside, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
 static=Genuine_IP, Outside, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/IEPL.png
 
-static= HK-reg, server-tag-regex= 香港|🇭🇰|HK|Hong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
-static= TW-reg, server-tag-regex= 台|tw|TW|Tai, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
-static= US-reg, server-tag-regex= 美|us|US|Amer, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
-static= JP-reg, server-tag-regex= 日|jp|JP|Jap, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JP.png
-static= SG-reg, server-tag-regex= 新|sg|SG|Singa, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
+static= HK-reg, server-tag-regex= 港|HK|HONG|Hong|HGC, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+static= TW-reg, server-tag-regex= 台|台北|新北|彰化|TW|Tai, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/TW.png
+static= US-reg, server-tag-regex= 美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|纽约|US|United.*?States|Ameri, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png
+static= JP-reg, server-tag-regex= 日本|日|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Jap|京日|杭日|青日, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JP.png
+static= SG-reg, server-tag-regex= 新|狮城|SG|Singa|Sing|Sin, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
 static= reg, server-tag-regex= ||, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
 
 [server_local]
