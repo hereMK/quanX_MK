@@ -1,4 +1,5 @@
 DOMAIN-SUFFIX,tvb.com,HK_MK
-
+ip-cidr, 144.76.203.211/32, HK_MK
+HOST, cf1.jmsooo.com, HK_MK
 
 # https://github.com/hereMK/clash_MK/blob/main/HK_MK
