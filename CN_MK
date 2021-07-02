@@ -1,9 +1,9 @@
-DOMAIN-KEYWORD,cunhua,CN_MK
-DOMAIN-SUFFIX,wemp.app,CN_MK
-DOMAIN-SUFFIX,hikew.com,CN_MK
+DOMAIN-KEYWORD,cunhua
+DOMAIN-SUFFIX,wemp.app
+DOMAIN-SUFFIX,hikew.com
 
 
-# DOMAIN-SUFFIX,emby-sg.plusmedia.site,CN_MK
+# DOMAIN-SUFFIX,emby-sg.plusmedia.site
 
 
 # https://github.com/hereMK/clash_MK/blob/main/CN_MK
