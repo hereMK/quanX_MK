@@ -1,7 +1,7 @@
-DOMAIN-KEYWORD, kknews, TW_MK
-DOMAIN-KEYWORD, hotbak, TW_MK
-DOMAIN-SUFFIX, dcard.tw,TW_MK
-DOMAIN-SUFFIX, read01.com,TW_MK
+DOMAIN-KEYWORD, kknews
+DOMAIN-KEYWORD, hotbak
+DOMAIN-SUFFIX, dcard.tw
+DOMAIN-SUFFIX, read01.com
 
 
 # https://github.com/hereMK/clash_MK/blob/main/TW_MK
