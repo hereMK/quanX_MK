@@ -1,11 +1,11 @@
-DOMAIN-SUFFIX,scholar.google.com,US_MK
-DOMAIN-SUFFIX,scholar.google.cn,US_MK
-DOMAIN-SUFFIX,scholar.google.com.hk,US_MK
-DOMAIN-SUFFIX,scholar.google.com.tw,US_MK
-DOMAIN-SUFFIX,themoviedb.org,US_MK
-DOMAIN-SUFFIX,imdb.com,US_MK
-DOMAIN-SUFFIX,goodreads.com,US_MK
-DOMAIN,emby.maying.club,US_MK
-DOMAIN-KEYWORD,imdb,US_MK
+DOMAIN-SUFFIX,scholar.google.com
+DOMAIN-SUFFIX,scholar.google.cn
+DOMAIN-SUFFIX,scholar.google.com.hk
+DOMAIN-SUFFIX,scholar.google.com.tw
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,goodreads.com
+DOMAIN,emby.maying.club
+DOMAIN-KEYWORD,imdb
 
 
