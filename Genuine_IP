@@ -1,12 +1,8 @@
+DOMAIN-SUFFIX,v2rayssr.com
+DOMAIN-KEYWORD,whatismyipaddress
+DOMAIN-KEYWORD,overcast
 
-DOMAIN-SUFFIX,v2rayssr.com,Genuine_IP
-DOMAIN-KEYWORD,whatismyipaddress,Genuine_IP
-DOMAIN-KEYWORD,overcast,Genuine_IP
 
 
-# optional
-# hotbak
-# kknews.cc
-# whatismyipaddress.com
 # https://github.com/hereMK/clash_MK/blob/main/Genuine_IP
 #
